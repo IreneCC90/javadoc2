@@ -9,15 +9,28 @@ package JavaDoc;
  *
  * @author cheir
  */
+/**
+ * 
+ * @author cheir
+ */
 public class Persona {
     int edad;
     char sexo;
     String nombre;
+ /**
+ * Constructor por defecto
+ */
     Persona (){
         edad = 10;
         sexo= ' ';
         nombre= "";
     }
+/**
+ * 
+ * @param n
+ * @param e
+ * @param s 
+ */
      Persona (String n, int e, char s ){
         edad = e;
         sexo= s;
